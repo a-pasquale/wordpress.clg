@@ -50,27 +50,17 @@ body {
 	z-index: 0;
 }
 #sidebar-primary {
-	width:240px;
-	margin:0px 0px 60px 0px;
 	float:left;
-	position: fixed;
 }
 #main {
-	width:75%;
 	margin-top:85px;
 	float:right;
 }
 #content {
-	width: 62.5%;
 	margin:0px 0px 60px 0px;
 	padding:0px 0px 0px 60px;
 	float:left;
 	font-size: 14px;
-}
-#sidebar-secondary {
-	width:20.8%;
-	margin:0px 0px 60px 0px;
-	float:right;
 }
 #footer {
 	width:70%;
@@ -240,20 +230,6 @@ ul.sidebar li.widget_text p {
 	float:left;
 }
 
-/* Sidebar Secondary
---------------------------------------------- */
-#sidebar-secondary img {
-	max-width: 100%;
-	display: block;
-	margin:0px;
-	padding: 0;
-}
-#sidebar-secondary img.banner {
-	max-width: 100%;
-	display: block;
-	margin:0px 0px 10px 0px;
-	padding: 0;
-}
 
 /* Sidebar Widgets (can be used for both Sidebars)
 --------------------------------------------- */
@@ -803,56 +779,21 @@ input.wpcf7-submit {
 @media screen and (max-width: 870px) {
 #wrap {
 	max-width: 870px;
+    /*
 	margin: 25px auto 0 auto;
 	padding: 0px 15px 0px 15px;
-	overflow:hidden;
+    */
 }
 #sidebar-primary {
-	width:240px;
-	position: fixed;
 }
 #main {
-	width: 72%;
 	float:right;
-	overflow:hidden;
 }
 #content {
-	width: 87.2%;
+    /*
 	margin:0px 0px 50px 0px;
 	padding:0px 0px 0px 80px;
-	float:none;
-}
-#sidebar-secondary {
-	width: 87.2%;
-	margin:0px 0px 50px 0px;
-	padding:50px 0px 0px 80px;
-	float:none;
-	overflow:hidden;
-}
-/* --- Secondary Sidebar Widgets --- */
-#sidebar-secondary img.banner {
-	max-width: 100%;
-	display: block;
-	margin:0px 10px 10px 0px;
-}
-#sidebar-secondary ul.sidebar li.widget-container {
-	width:100%;
-	margin:0px 20px 30px 0px;
-	padding:0px 0px 10px 0px;
-	float:left;
-	border-bottom:1px dotted #4C4C4C;
-	overflow:hidden;
-}
-#sidebar-secondary ul li.widget_sociallinks ul li, #sidebar-secondary ul.sidebar li.widget_pages ul li, #sidebar-secondary ul.sidebar li.widget_archive ul li, #sidebar-secondary ul.sidebar li.widget_categories ul li, #sidebar-secondary ul.sidebar li.widget_links ul li {
-	float:left;
-	margin:0px 22px 5px 0px;
-}
-#sidebar-secondary ul .search-input {
-	width:50%;
-	margin:0px 0px 4px 0px;
-	padding:2px 3px 3px 3px;
-	border:1px solid #999;
-	font-size:12px;
+    */
 }
 #searchsubmit {
 	margin:0px 0px 0px 5px;
@@ -876,47 +817,48 @@ input.wpcf7-submit {
 @media screen and (max-width: 770px) {
 #wrap {
 	max-width: 770px;
+    /*
 	margin: 25px auto 0 auto;
 	padding: 0px 15px 0px 15px;
 	overflow:hidden;
+    */
 }
+/*
 #sidebar-primary {
 	width:240px;
 	position: fixed;
 }
+    */
 #main {
-	width: 68.8%;
 	float:right;
-	overflow:hidden;
 }
 #content {
+    /*
 	width: 88.5%;
 	margin:0px 0px 50px 0px;
 	padding:0px 0px 0px 60px;
 	float:none;
-}
-#sidebar-secondary { 
-	width: 88.5%;
-	margin:0px 0px 50px 0px;
-	padding:50px 0px 0px 60px;
-	float:none;
-	overflow:hidden;
+    */
 }
 }
 
 @media screen and (max-width: 620px) {
 #wrap {
 	max-width: 620px;
+    /*
 	margin: 25px auto 0 auto;
 	padding: 0px 10px 0px 10px;
 	overflow:hidden;
 	position:relative;
+    */
 }
 #sidebar-primary {
+    /*
 	width: auto;
 	position:relative;
 	float: none;
 	clear: both;
+    */
 }
 #sidebar-primary ul li.widget_social_links ul li {
 	float:left;
@@ -929,41 +871,20 @@ input.wpcf7-submit {
 	clear: both;
 }
 #content {
+    /*
 	width: auto;
 	margin:0px 0px 50px 0px;
 	padding:0;
 	float: none;
 	clear: both;
-}
-#sidebar-secondary {
-	width: auto;
-	padding:50px 0px 0px 0px;
-	margin:0px 0px 50px 0px;
-	float: none;
-	clear: both;
+    */
 }
 #content img.wp-post-image {
 	width: 100px;
 	margin: 3px 10px 5px 0 !important;
 }
-/* --- Secondary Sidebar Widgets --- */
-#sidebar-secondary ul.sidebar li.widget-container {
-	width:100%;
-	margin:0px 20px 30px 0px;
-	padding:0px 0px 10px 0px;
-	float:left;
-	border-bottom:1px dotted #4C4C4C;
-	overflow:hidden;
-}
 form#searchform {
 	width:99%;
-}
-#sidebar-secondary ul .search-input {
-	width:60%;
-	margin:0px 0px 4px 0px;
-	padding:2px 3px 3px 3px;
-	border:1px solid #999;
-	font-size:12px;
 }
 #content h2 {
 	padding:0px 0px 20px 0px;
