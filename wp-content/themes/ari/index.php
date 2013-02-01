@@ -7,9 +7,6 @@
 	</div>
 	<!--end Content-->
 
-<?php get_sidebar('secondary'); ?>
-
-</div>
 <!--end Main-->
 
 <?php get_footer(); ?>
