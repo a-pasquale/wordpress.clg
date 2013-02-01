@@ -6,6 +6,7 @@
 		<?php get_template_part( 'loop', 'index' );	?>
 	</div>
 	<!--end Content-->
+    <?php get_sidebar('secondary'); ?>
   </div> <!-- end of row -->
 <!--end Main-->
 
