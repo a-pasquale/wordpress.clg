@@ -1,8 +1,12 @@
 <?php get_header(); ?>
 
-<div id="main">
-	<div id="content">
-		<div id="page">
+<div id="main" class="container">
+  <div id="content" class="row">
+    <div class="span4">
+        <?php get_sidebar('primary'); ?>
+	</div>
+	<!--end Sidebar One-->
+		<div id="page" class="span8">
 		<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
 					<?php if ( is_front_page() ) { ?>
@@ -24,9 +28,6 @@
 	</div>
 	<!--end Content-->
 
-<?php get_sidebar('secondary'); ?>
-
-</div>
 <!--end Main-->
 
 <?php get_footer(); ?>

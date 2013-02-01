@@ -1,5 +1,5 @@
 <div id="footer" class="clearfix">
-		<p class="alignright">&copy; <?php echo date ('Y'); ?> <a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a>. <?php printf( __( 'Theme: %1$s by %2$s.', 'ari' ), 'Ari', '<a href="http://www.elmastudio.de/wordpress-themes/">Elmastudio</a>' ); ?> Proudly powered by <a href="http://wordpress.org/">WordPress</a>.</p>
+		<p class="alignright">&copy; <?php echo date ('Y'); ?> <a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a>.</p>
 </div>
 <!--end Footer-->
 
@@ -7,6 +7,8 @@
 <!--end Wrap-->
 
 <?php wp_footer(); ?>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
 

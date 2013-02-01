@@ -12,8 +12,9 @@
 	if ( $paged >= 2 || $page >= 2 )
 		echo ' | ' . sprintf( __( 'Page %s', 'ari' ), max( $paged, $page ) );
 	?></title>
-	<link rel="profile" href="http://gmpg.org/xfn/11" />
 	<link rel="stylesheet" href="<?php bloginfo( 'stylesheet_url' ); ?>" type="text/css" media="all" />
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/bootstrap/css/bootstrap.min.css" type="text/css">
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/bootstrap/css/bootstrap-responsive.min.css" type="text/css">
 	<?php if (get_option('ari_dark-style') == 'checked') : ?>
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/dark.css" type="text/css">
 	<?php endif; ?>
@@ -37,7 +38,3 @@
 	<?php endif; ?>
 	</div><!--end Logo-->
 
-	<?php get_sidebar('primary'); ?>
-
-	</div>
-	<!--end Sidebar One-->
