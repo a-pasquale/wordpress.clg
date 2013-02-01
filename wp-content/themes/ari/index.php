@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div id="main">
+<div id="main" class="span8">
 
 	<div id="content">
 		<?php get_template_part( 'loop', 'index' );	?>
