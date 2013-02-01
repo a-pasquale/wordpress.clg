@@ -4,8 +4,8 @@
   <div id="content" class="row">
     <div class="span4">
         <?php get_sidebar('primary'); ?>
+        </div> <!--end Sidebar One-->
 	</div>
-	<!--end Sidebar One-->
 		<div id="page" class="span8">
 		<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
