@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div id="main">
+<div id="main" class="span8">
 	<div id="content">
 	<h1 class="archive"><?php printf( __( 'Category Archives for <strong>%s</strong>', 'ari' ), '' . single_cat_title( '', false ) . '' ); ?></h1>
 	

@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div id="main">
+<div id="main" class="span8">
 	<div id="content">
 		<div id="page">
 	
