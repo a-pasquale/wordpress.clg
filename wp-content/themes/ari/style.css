@@ -65,6 +65,13 @@ body {
 	padding:0px 0px 0px 60px;
 	float:left;
 	font-size: 16px;
+    max-width: 100%;
+}
+#content h2 {
+	padding:0px 0px 20px 0px;
+	font-size: 48px;
+	line-height:1.1em;
+    color: #222;
 }
 #footer {
 	width:70%;
@@ -202,9 +209,6 @@ ul.sidebar h3.widget-title {
 /* Sidebar Primary
 --------------------------------------------- */
 /* --- Theme Logo --- */
-.logo {
-    margin: 20px;
-}
 .logo h1 {
 	padding:5px 0px 0px 0px;
 	font-size:30px;
@@ -822,9 +826,6 @@ input.wpcf7-submit {
 }
 
 @media screen and (max-width: 770px) {
-body {
-    padding: 0 20px;
-}
 #wrap {
     width: 90%;
     /*
@@ -832,6 +833,10 @@ body {
 	padding: 0px 15px 0px 15px;
 	overflow:hidden;
     */
+}
+
+#content h2 {
+    font-size: 24px;
 }
 /*
 #sidebar-primary {
@@ -851,6 +856,9 @@ body {
 }
 
 @media screen and (max-width: 620px) {
+#content h2 {
+    font-size: 24px;
+}
 #wrap {
 	max-width: 620px;
     /*
@@ -893,12 +901,6 @@ body {
 }
 form#searchform {
 	width:99%;
-}
-#content h2 {
-	padding:0px 0px 20px 0px;
-	font-size: 48px;
-	line-height:1.1em;
-    color: #222;
 }
 #content .post p {
 	padding:0px 0px 15px 0px;
