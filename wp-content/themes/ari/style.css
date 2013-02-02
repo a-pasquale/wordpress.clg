@@ -57,14 +57,14 @@ body {
 }
 #main {
 	margin-top:85px;
-	float:right;
-    max-width:760px;
+	float:left;
+    max-width:560px;
 }
 #content {
 	margin:0px 0px 60px 0px;
 	padding:0px 0px 0px 60px;
 	float:left;
-	font-size: 14px;
+	font-size: 16px;
 }
 #footer {
 	width:70%;
@@ -106,8 +106,8 @@ img.aligncenter {
 }
 #content h2 {
 	padding:0px 0px 20px 0px;
-	font-size: 18px;
-	line-height:26px;
+	font-size: 48px;
+	line-height:1.1em;
 }
 #content h3 {
 	padding:20px 0px 12px 0px;
@@ -183,19 +183,18 @@ ul.sidebar a, p.meta a, .comment-meta a, p.logged-in-as a, a.post-edit-link, #fo
 /* Sidebars
 --------------------------------------------- */
 ul.sidebar {
-	font-size: 12px;
+	font-size: 14px;
 	line-height:18px;
 }
 ul.sidebar li.widget-container, ul.sidebar li.pagenav, ul.sidebar li.categories {
 	margin:0px 0px 30px 0px;
 	padding:0px 0px 10px 0px;
-	border-bottom:1px dotted #4C4C4C;
 	overflow:hidden;
 	line-height:23px;
 }
 ul.sidebar h3.widget-title {
 	padding:0px 0px 5px 0px;
-	font-size: 12px;
+	font-size: 16px;
 	font-weight:bold;
 	text-transform:uppercase;
 }
@@ -203,35 +202,38 @@ ul.sidebar h3.widget-title {
 /* Sidebar Primary
 --------------------------------------------- */
 /* --- Theme Logo --- */
-#sidebar-primary .logo {
-	margin:0px 0px 30px 0px;
-	overflow:hidden;
+.logo {
+    margin: 20px;
 }
-#sidebar-primary .logo h1 {
+.logo h1 {
 	padding:5px 0px 0px 0px;
 	font-size:30px;
 	line-height:35px;
 }
-#sidebar-primary .logo h1 a:hover {
-	text-decoration:none;
+.logo h1 a {
+    color: #660099;
+	/*text-decoration:none;*/
 }
-#sidebar-primary .logo p {
+.logo p {
 	font-family:'Droid Serif',  Times, serif;
 	font-style:italic;
 	font-size:13px;
 }
-#sidebar-primary .logo img {
+#sidebar-primary img {
 	max-width:100%;
 	margin:0;
 	padding:0;
 }
+
 /* --- Text Widget --- */
 ul.sidebar li.widget_text p {
 	line-height:1.6 !important;
 }
 #sidebar-primary ul.sidebar li.widget_text img {
 	margin:3px 10px 0px 0px;
-	float:left;
+    width: 220px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 8px #444;
 }
 
 
@@ -259,7 +261,7 @@ ul.sidebar li.widget_pages ul li.page_item ul.children {
 /* --- Search Widget --- */
 .search-input {
 	max-width: 100%;
-	width: 95%;
+	width: 65%;
 	margin:0px 0px 4px 0px;
 	font-size:12px;
 	float:left;
@@ -345,8 +347,9 @@ ul.sidebar li.widget_sociallinks a.delicious {
 }
 #content .post p, #content .page p {
 	padding:0px 0px 15px 0px;
-	font-size: 14px;
-	line-height:23px;
+	font-size: 16px;
+    line-height: 150%;
+	/*line-height:23px;*/
 }
 #content .post p small {
 	font-size:13px;
@@ -791,7 +794,7 @@ input.wpcf7-submit {
 #sidebar-primary {
 }
 #main {
-	float:right;
+	float:left;
 }
 #content {
     /*
@@ -819,8 +822,11 @@ input.wpcf7-submit {
 }
 
 @media screen and (max-width: 770px) {
+body {
+    padding: 0 20px;
+}
 #wrap {
-	max-width: 770px;
+    width: 90%;
     /*
 	margin: 25px auto 0 auto;
 	padding: 0px 15px 0px 15px;
@@ -833,10 +839,8 @@ input.wpcf7-submit {
 	position: fixed;
 }
     */
-#main {
-	float:right;
-}
 #content {
+    padding: 0;
     /*
 	width: 88.5%;
 	margin:0px 0px 50px 0px;
@@ -892,21 +896,23 @@ form#searchform {
 }
 #content h2 {
 	padding:0px 0px 20px 0px;
-	font-size: 17px;
-	line-height:24px;
+	font-size: 48px;
+	line-height:1.1em;
+    color: #222;
 }
 #content .post p {
 	padding:0px 0px 15px 0px;
-	font-size: 13px;
-	line-height:22px;
+	font-size: 16px;
+	/*line-height:22px;*/
+    line-height: 150%;
 }
 #content p.previous {
 	float:left;
-	font-size:13px;
+	font-size:16px;
 }
 #content p.next {
 	float:right;
-	font-size:13px;
+	font-size:16px;
 }
 /* --- Comments Reply --- */
 #content .post #comments-content #respond h3#reply-title {

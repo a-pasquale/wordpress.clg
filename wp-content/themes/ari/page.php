@@ -24,6 +24,7 @@
 	</div>
 	<!--end Content-->
 
+    <?php get_sidebar('secondary'); ?>
 <!--end Main-->
 
 <?php get_footer(); ?>

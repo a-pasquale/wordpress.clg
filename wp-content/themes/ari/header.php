@@ -25,9 +25,7 @@
 
 <div id="wrap" class="container">
   <div class="row">
-	<div id="sidebar-primary" class="span4">
-
-        <div class="logo">
+        <div class="logo span12">
             <?php if (get_option('ari_logo-image') ) : ?>
             <a href="<?php echo home_url(); ?>"><img src="<?php echo (get_option('ari_logo-image')) ? get_option('ari_logo-image') : get_template_directory_uri() . '/images/logo.png' ?>" alt="<?php bloginfo('name'); ?>" /></a>
 
@@ -36,4 +34,11 @@
             <h1><a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>"><?php bloginfo( 'name' ); ?></a></h1><p><?php bloginfo( 'description' ); ?></p>
             <?php endif; ?>
         </div><!--end Logo-->
+  </div>
+  <div class="row">
+	<div id="sidebar-primary" class="span4">
+        <?php get_sidebar('primary'); ?>
+        <div class="hidden-phone">
+            <?php get_sidebar('secondary'); ?>
+        </div>
     </div><!-- end sidebar-primary -->
