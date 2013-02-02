@@ -36,7 +36,7 @@
         </div><!--end Logo-->
   </div>
   <div class="row">
-	<div id="sidebar-primary" class="span4">
+	<div id="sidebar-primary" class="span3">
         <?php get_sidebar('primary'); ?>
         <div class="hidden-phone">
             <?php get_sidebar('secondary'); ?>
