@@ -222,6 +222,7 @@ class Ari_SocialLinks_Widget extends WP_Widget {
 		
 		if ( !empty( $title ) ) { echo $before_title . $title . $after_title; };
 		echo '<ul>';
+        echo '<li class="widget_sociallinks"><a href="mailto:talktocatherine@yahoo.com" class="email">Email Catherine</a></li>';
 	if($rss_title == ' ') { echo ''; } else {  echo  '<li class="widget_sociallinks"><a href=" '. $rss_url .'" class="rss" target="_blank">'. $rss_title .'</a></li>'; }
 		if($twitter_title == ' ') { echo ''; } else {  echo  '<li class="widget_sociallinks"><a href=" '. $twitter_url .'" class="twitter" target="_blank">'. $twitter_title .'</a></li>'; }
 		if($fb_title == ' ') { echo ''; } else {  echo  '<li class="widget_sociallinks"><a href=" '. $fb_url .'" class="facebook" target="_blank">'. $fb_title .'</a></li>'; }
